@@ -3,8 +3,8 @@ Team name: Clueless Team
 Team members: Marcus, Chotan, Kai
 
 # Introduction
-The project idea that we have come up with is an application that will allow teachers to share their lesson plans. (Going to add more still here)
-(In 2-4 paragraphs, describe your project concept)
+The project idea that we have come up with is an application that will allow teachers to share their lesson plans. We will ask the user to select what state they are in, and also what grade(s) they teach to be able to give them resources more specific to them easier, but will still make the entire collection available to them. We will hopefully have a few templates already but will have teachers create more and the collection will grow as the user interaction grows. We hope to get some input from current teachers in things they would be interested in seeing. As well as some current students that are going to be going into teaching so that it can benefit teachers no matter where they are in their careers.
+
 (Also define some loosely defined features of your project using bullet points)
 
 # Anticipated Technologies
@@ -18,9 +18,6 @@ We'll start by focusing on the back end so we can support the front end before w
 
 # Anticipated Problems
 We are planningon using Java for most of our coding for the app, the problems we may have with this is that none of us have a whole lot of expeerience with programming in Java so we will be struggling a bit with that but besides that it does not seem as though we should run into too many issues.
-<<<<<<< HEAD
-(Describe any problems you foresee that you will need to overcome)
+
 
 Remember this is a living document is expected to be changed as you make progress on your project.
-=======
->>>>>>> 2f615cb (proposal-template.md)
