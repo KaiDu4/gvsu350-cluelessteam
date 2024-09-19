@@ -6,6 +6,11 @@ Team members: Marcus, Chotan, Kai
 The project idea that we have come up with is an application that will allow teachers to share their lesson plans. We will ask the user to select what state they are in, and also what grade(s) they teach to be able to give them resources more specific to them easier, but will still make the entire collection available to them. We will hopefully have a few templates already but will have teachers create more and the collection will grow as the user interaction grows.
 We hope to get some input from current teachers in things they would be interested in seeing. As well as some current students that are going to be going into teaching so that it can benefit teachers no matter where they are in their careers.
 
+* Direct messaging
+* Creating and editing templates
+* Making public and private templates
+* Seeing specific for subjects/grades
+
 (Also define some loosely defined features of your project using bullet points)
 
 # Anticipated Technologies
