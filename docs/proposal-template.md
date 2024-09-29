@@ -27,7 +27,8 @@ We are planning on using Java for most of our coding for the app, the problems w
 
 Remember this is a living document is expected to be changed as you make progress on your project.
 
-#Possible Feature Descriptions
+
+##Possible Feature Descriptions
 
 * Direct messaging - A sort of simple messaging system to be able to send templates of message plans, or just regular messages with other users/teachers
 
