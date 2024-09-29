@@ -6,12 +6,21 @@ Team members: Marcus, Chotan, Kai
 The project idea that we have come up with is an application that will allow teachers to share their lesson plans. We will ask the user to select what state they are in, and also what grade(s) they teach to be able to give them resources more specific to them easier, but will still make the entire collection available to them. We will hopefully have a few templates already but will have teachers create more and the collection will grow as the user interaction grows.
 We hope to get some input from current teachers in things they would be interested in seeing. As well as some current students that are going to be going into teaching so that it can benefit teachers no matter where they are in their careers.
 
-* Direct messaging
-* Creating and editing templates
-* Making public and private templates
-* Seeing specific for subjects/grades
 
-(Also define some loosely defined features of your project using bullet points)
+
+**Possible Feature Descriptions**
+
+* Direct messaging - A sort of simple messaging system to be able to send templates of message plans, or just regular messages with other users/teachers
+
+* Creating and editing templates - We want to be able to use google docs or works, as well as other options for teachers to make their own templates of worksheets, or tools. Along with the ablility to let other teachers use those templates and edit them for their own usage.
+
+* Making public and private templates - Some templates teachers may want to keep private or they may be obligated to keep it pribe, so this option is important if a user would run into that sort of situation
+
+* Seeing specific for subjects/grades - This would act as a filter for teachers of specific subjects to be able to find worksheets or projects along the lines of what they teach, or post their templates with these subjects in mind
+                                                                                                                                                            NOTE: As of right now these are are first draft ideas for this features and time will tell whether some or possible or their descriptions may change  
+
+
+
 
 # Anticipated Technologies
 We will need our laptops, possibly go and use a PC to be able to handle all of the application if one of our laptops doesn't have enough processing power. We will install a Java IDE, as of right now it will be IntelliJ IDEA.
@@ -28,15 +37,4 @@ We are planning on using Java for most of our coding for the app, the problems w
 Remember this is a living document is expected to be changed as you make progress on your project.
 
 
-##Possible Feature Descriptions
-
-* Direct messaging - A sort of simple messaging system to be able to send templates of message plans, or just regular messages with other users/teachers
-
-* Creating and editing templates - We want to be able to use google docs or works, as well as other options for teachers to make their own templates of worksheets, or tools. Along with the ablility to let other teachers use those templates and edit them for their own usage.
-
-* Making public and private templates - Some templates teachers may want to keep private or they may be obligated to keep it pribe, so this option is important if a user would run into that sort of situation 
- 
-* Seeing specific for subjects/grades - This would act as a filter for teachers of specific subjects to be able to find worksheets or projects along the lines of what they teach, or post their templates with these subjects in mind
-
-NOTE: As of right now these are are first draft ideas for this features and time will tell whether some or possible or their descriptions may change
 
