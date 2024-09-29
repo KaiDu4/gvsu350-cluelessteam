@@ -26,3 +26,16 @@ We'll start by focusing on the back end so we can support the front end before w
 We are planning on using Java for most of our coding for the app, the problems we may have with this is that none of us have a whole lot of expeerience with programming in Java so we will be struggling a bit with that but besides that it does not seem as though we should run into too many issues.
 
 Remember this is a living document is expected to be changed as you make progress on your project.
+
+#Possible Feature Descriptions
+
+* Direct messaging - A sort of simple messaging system to be able to send templates of message plans, or just regular messages with other users/teachers
+
+* Creating and editing templates - We want to be able to use google docs or works, as well as other options for teachers to make their own templates of worksheets, or tools. Along with the ablility to let other teachers use those templates and edit them for their own usage.
+
+* Making public and private templates - Some templates teachers may want to keep private or they may be obligated to keep it pribe, so this option is important if a user would run into that sort of situation 
+ 
+* Seeing specific for subjects/grades - This would act as a filter for teachers of specific subjects to be able to find worksheets or projects along the lines of what they teach, or post their templates with these subjects in mind
+
+NOTE: As of right now these are are first draft ideas for this features and time will tell whether some or possible or their descriptions may change
+
