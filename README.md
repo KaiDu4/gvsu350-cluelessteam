@@ -5,7 +5,7 @@ The project idea that we have come up with is an application that will allow tea
 ## Team Members and Roles
 
 * Kai (Team leader, Focus on backend)
-* Marcus (Front end design/coder, Focus on front end)
+* [Marcus](https://github.com/mabaddom/CIS350---HW2-Abad-Dominguez) (Front end design/coder, Focus on front end)
 * Chotan (Front end coder/design, Focus on front end)
 
 ## Prerequisites
