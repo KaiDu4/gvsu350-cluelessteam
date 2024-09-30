@@ -23,7 +23,7 @@ We hope to get some input from current teachers in things they would be interest
 
 
 # Anticipated Technologies
-We will need our laptops, possibly go and use a PC to be able to handle all of the application if one of our laptops doesn't have enough processing power. We will install a Java IDE, as of right now it will be IntelliJ IDEA.
+We will need our laptops, possibly go and use a PC to be able to handle all of the application if one of our laptops doesn't have enough processing power. We will install a Java IDE, as of right now it is AndriodStudio to be able to help get some of the framework of the code, so we can make the coding more about actually getting the features and less about just trying to set up the whole framework of Java.
 
 # Method/Approach
 We are planning on splitting the work on some working on the backend side of the project and the others working on the front end and then we will come together to get themm to all work together. We have a plan for how the app is going to look and work, which is what will allow us to split the work this way, also this way when we bring both ends together it will just be editing some code instead of having to start all new code.
