@@ -3,8 +3,8 @@ The project idea that we have come up with is an application that will allow tea
 
 ## Team Members and Roles
 
-* [Kai](https://github.com/KaiDu4/CIS350-HW2-Dulak) (Team leader, Focus on backend)
-* [Marcus](https://github.com/mabaddom/CIS350---HW2-Abad-Dominguez) (Front end design/coder, Focus on front end)
+* [Kai](https://github.com/KaiDu4/CIS350-HW2-Dulak) (Lead Developer, Focus on backend)
+* [Marcus](https://github.com/mabaddom/CIS350---HW2-Abad-Dominguez) (Team Lead, Front end design/coder, Focus on front end)
 * [Chotan](https://github.com/ChotanSharma/CIS350-HW2-SHARMA) (Front end design/coder, Focus on front end)
 
 ## Prerequisites
