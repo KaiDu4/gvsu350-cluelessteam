@@ -17,9 +17,8 @@ We hope to get some input from current teachers in things they would be interest
 * Making public and private templates - Some templates teachers may want to keep private or they may be obligated to keep it pribe, so this option is important if a user would run into that sort of situation
 
 * Seeing specific for subjects/grades - This would act as a filter for teachers of specific subjects to be able to find worksheets or projects along the lines of what they teach, or post their templates with these subjects in mind
-                                                                                                                                                            NOTE: As of right now these are are first draft ideas for this features and time will tell whether some or possible or their descriptions may change  
 
-
+* NOTE: As of right now these are are first draft ideas for this features and time will tell whether some or possible or their descriptions may change 
 
 
 # Anticipated Technologies
