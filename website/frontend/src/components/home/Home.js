@@ -1,11 +1,14 @@
 import React from "react";
 import { Carousel, Button, Container, Row, Col } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import downloadImage from "../home/download.jpg"
 import image2 from "../home/download1.webp"
 import image3 from "../home/download2.jpg"
 
 function HomePage() {
+  // initialise navigate
+  const navigate = useNavigate()
   return (
     <div className="home-page">
       {/* Carousel Section */}
@@ -53,7 +56,7 @@ function HomePage() {
             <p>Sign in to access to unlimited learning tools.</p>
           </Col>
           <Col md={4} className="text-md-end text-center">
-            <Button href="#signin" variant="primary" className="sign-in-button">
+            <Button onClick={() => navigate("/signin")} variant="primary" className="sign-in-button">
               Sign In
             </Button>
           </Col>
