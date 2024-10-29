@@ -10,7 +10,7 @@ function HomePage() {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-image"
-            src="" // Replace with actual image URL
+            src="./download.jpg" // Replace with actual image URL
             alt="Slide 1"
           />
           <Carousel.Caption>
@@ -21,7 +21,7 @@ function HomePage() {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-image"
-            src="" // Replace with actual image URL
+            src="./download.jpg" // Replace with actual image URL
             alt="Slide 2"
           />
           <Carousel.Caption>
@@ -32,7 +32,7 @@ function HomePage() {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-image"
-            src="" // Replace with actual image URL
+            src="./download.jpg" // Replace with actual image URL
             alt="Slide 3"
           />
           <Carousel.Caption>
