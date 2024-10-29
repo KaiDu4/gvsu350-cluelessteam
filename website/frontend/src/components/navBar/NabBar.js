@@ -16,7 +16,7 @@ function NabBar() {
           <Nav className="me-auto">
             <Nav.Link href="#home" className='nav-link custom-font'>Home</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown" className='nav-dropdown custom-font'>
-              <NavDropdown.Item href="#start" className='dropdown-item custom-font'>START</NavDropdown.Item>
+              <NavDropdown.Item href="#signin" className='dropdown-item custom-font'>START</NavDropdown.Item>
               <NavDropdown.Item href="#publicTemp" className='dropdown-item custom-font'>
                 Public Templates
               </NavDropdown.Item>
