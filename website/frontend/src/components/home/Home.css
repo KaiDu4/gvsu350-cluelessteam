@@ -1,0 +1,77 @@
+/* General Page Styling */
+.home-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Carousel Styling */
+  .message-carousel .carousel-image {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .message-carousel .carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .message-carousel .carousel-caption p {
+    font-size: 1.2rem;
+    color: #eee;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Sign-In Banner Styling */
+  .sign-in-banner {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+  }
+  
+  .sign-in-banner h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .sign-in-banner p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .sign-in-button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .message-carousel .carousel-caption h3 {
+      font-size: 1.5rem;
+    }
+  
+    .message-carousel .carousel-caption p {
+      font-size: 1rem;
+    }
+  
+    .sign-in-banner h2 {
+      font-size: 1.5rem;
+    }
+  
+    .sign-in-banner p {
+      font-size: 1rem;
+    }
+  }
+  
