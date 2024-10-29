@@ -1,0 +1,62 @@
+/* Navbar background and text color */
+.custom-navbar {
+    background-color: rgb(233, 231, 243); /* Primary color */
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #514c4c;
+    font-weight: bold;
+  }
+  
+  .nav-link, .nav-dropdown .dropdown-item {
+    color: #131111; /* Text color */
+    padding: 0.5rem 1rem;
+    font-display:inherit;
+  }
+  
+  .nav-link:hover, .nav-dropdown .dropdown-item:hover {
+    color: rgb(164, 27, 27); /* Hover color */
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  /* General font size for navbar items */
+  .custom-font {
+    font-size: 1.1rem; /* Adjust the size as needed, e.g., 1.2rem or 18px */
+    font-weight: 500; /* Make the font a bit bold if needed */
+ }
+
+ .navbar-brand.custom-font {
+    font-size: 2.1rem; /* Slightly larger for emphasis */
+  }
+  
+  .nav-dropdown {
+    color: #ffffff;
+  }
+  
+  .dropdown-item {
+    color: #333;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #233b53; /* Light hover background */
+  }
+  
+  /* Toggle button color */
+  .navbar-toggler {
+    border-color: #ffffff;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 991px) {
+    .custom-navbar {
+      padding: 0.5rem;
+    }
+  }
+  

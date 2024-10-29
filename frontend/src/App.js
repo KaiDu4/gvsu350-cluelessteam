@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
-    <h1 className='text-center'>Hello World!</h1>
+    <div className="app">
+      <h1 className="display-1 text-primary">Hello Edubridge</h1>
+    </div>
   );
 }
 
