@@ -6,30 +6,36 @@
   
   /* Carousel Styling */
   .message-carousel .carousel-image {
-    height: 500px;
+    height: 550px;
     object-fit: cover;
   }
   
   .message-carousel .carousel-caption h3 {
     font-size: 2rem;
     font-weight: bold;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: #e6f6e6;
+    text-shadow: 1px 1px 2px rgba(56, 22, 22, 0.7);
+  }
+  .h3-col {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #77891a;
+    text-shadow: 1px 1px 2px rgba(56, 22, 22, 0.7);
   }
   
   .message-carousel .carousel-caption p {
     font-size: 1.2rem;
-    color: #eee;
+    color: #0b0a0a;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   }
   
   /* Sign-In Banner Styling */
   .sign-in-banner {
-    background-color: #f9f9f9;
-    padding: 2rem;
+    background-color: #e5d7d7;
+    padding: 3rem;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 3rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
   }
   
   .sign-in-banner h2 {
@@ -40,7 +46,7 @@
   
   .sign-in-banner p {
     font-size: 1.1rem;
-    color: #666;
+    color: #5f0808;
   }
   
   .sign-in-button {

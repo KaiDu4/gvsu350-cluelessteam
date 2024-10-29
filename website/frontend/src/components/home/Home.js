@@ -1,6 +1,9 @@
 import React from "react";
 import { Carousel, Button, Container, Row, Col } from "react-bootstrap";
 import "./Home.css";
+import downloadImage from "../home/download.jpg"
+import image2 from "../home/download1.webp"
+import image3 from "../home/download2.jpg"
 
 function HomePage() {
   return (
@@ -10,34 +13,34 @@ function HomePage() {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-image"
-            src="./download.jpg" // Replace with actual image URL
+            src={downloadImage} // Replace with actual image URL
             alt="Slide 1"
           />
           <Carousel.Caption>
             <h3>Welcome to EduBridge</h3>
-            <p>Empowering learners for the future.</p>
+            <p>Empowering Educators for the Future.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-image"
-            src="./download.jpg" // Replace with actual image URL
+            src={image2} // Replace with actual image URL
             alt="Slide 2"
           />
           <Carousel.Caption>
             <h3>Expand Your Knowledge</h3>
-            <p>Access top-tier courses and resources.</p>
+            <p>Access Top-tier Teaching Materials and resources.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-image"
-            src="./download.jpg" // Replace with actual image URL
-            alt="Slide 3"
+            src={image3} // Replace with actual image URL
+            alt="carousel-image"
           />
           <Carousel.Caption>
-            <h3>Join a Community of Learners</h3>
-            <p>Collaborate and connect with peers worldwide.</p>
+            <h3 className="h3-col">Join a Community of Educators</h3>
+            <p>Collaborate and Connect with Peers Worldwide.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -47,7 +50,7 @@ function HomePage() {
         <Row className="align-items-center">
           <Col md={8}>
             <h2>Already have an account?</h2>
-            <p>Sign in to access your personalized dashboard and continue your learning journey.</p>
+            <p>Sign in to access to unlimited learning tools.</p>
           </Col>
           <Col md={4} className="text-md-end text-center">
             <Button href="#signin" variant="primary" className="sign-in-button">
