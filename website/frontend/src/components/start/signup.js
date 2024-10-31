@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Form, Button, Container, Row, Col } from 'react-bootstrap';
+import { Form, Button, Container, Row, Col, Alert } from 'react-bootstrap';
+import './signup.css';
 
 const SignUpForm = () => {
     const [formData, setFormData] = useState({
@@ -10,15 +11,36 @@ const SignUpForm = () => {
         cellphone: '',
         email: ''
     });
-
+    const [showMessage, setShowMessage] = useState(false);
+    const [message, setMessage] = useState(null);
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
 
     const handleSignUp = () => {
+        // Check empty field registration try
+        const isFormComplete = Object.values(formData).every(field => field.trim() !== '');
+        
+        if (!isFormComplete) {
+            setMessage({ text: 'Please fill out all fields.', type: 'danger' });
+            return;
+        }
+        // Display success message
+        setShowMessage(true);
         // Handle the sign-up logic here
         console.log('Sign Up:', formData);
+        // Clear the form fields
+        setFormData({
+            firstName: '',
+            lastName: '',
+            schoolDistrict: '',
+            state: '',
+            cellphone: '',
+            email: ''
+        });
+        // Hide the message after 3 seconds
+        setTimeout(() => setShowMessage(true), 3000);
     };
 
     return (
@@ -26,6 +48,11 @@ const SignUpForm = () => {
             <Row>
                 <Col md={12} lg={8} className="mx-auto shadow-lg p-4 rounded">
                     <h1 className="text-center mb-4">Sign Up</h1>
+                    {showMessage && (
+                        <Alert variant="success" className="text-center">
+                            Registration successful!
+                        </Alert>
+                    )}
                     <Form>
                         <Row>
                             <Col md={6}>
