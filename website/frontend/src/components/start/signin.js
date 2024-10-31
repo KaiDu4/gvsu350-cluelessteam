@@ -1,6 +1,6 @@
 import React, { useState } from "react"; // Make sure to import useState
 import { Container, Form, Button } from "react-bootstrap";
-
+import "./signin.css";
 const SignInForm = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -12,19 +12,28 @@ const SignInForm = () => {
 
     return (
         <div className="form">
-            <input
+            <h1>Login</h1>
+            <div className='input-box'>
+                <input
                 type="email"
                 placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-            />
-            <input
+                />
+            </div>
+            <div className='input-box'>
+                <input
                 type="password"
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-            />
+                />
+            </div>
             <button onClick={handleSignIn}>Sign In</button>
+
+            <div className="register-link">
+                <p>Don't have an account? <a href="#">Open an account</a></p>
+            </div>
         </div>
     );
 };
