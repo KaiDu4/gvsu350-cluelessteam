@@ -1,6 +1,7 @@
 import React, { useState } from "react"; // Make sure to import useState
 import { Container, Form, Button } from "react-bootstrap";
 import "./signin.css";
+import { Link } from "react-router-dom";
 const SignInForm = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -32,7 +33,7 @@ const SignInForm = () => {
             <button onClick={handleSignIn}>Sign In</button>
 
             <div className="register-link">
-                <p>Don't have an account? <a href="#">Open an account</a></p>
+                <p>Don't have an account? <Link to="/signup">Open an account</Link></p>
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./components/home/Home";
 import SignInForm from "./components/start/signin.js";
 import NabBar from "./components/navBar/NabBar.js";
+import SignUpForm from './components/start/signup.js';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/signin" element={<SignInForm />} />
+                <Route path="/signup" element={<SignUpForm />} />
                 {/* Add more routes as needed */}
             </Routes>
       </Router>
