@@ -9,7 +9,8 @@ const SignUpForm = () => {
         schoolDistrict: '',
         state: '',
         cellphone: '',
-        email: ''
+        email: '',
+        password: ''
     });
     const [showMessage, setShowMessage] = useState(false);
     const [message, setMessage] = useState(null);
@@ -37,7 +38,8 @@ const SignUpForm = () => {
             schoolDistrict: '',
             state: '',
             cellphone: '',
-            email: ''
+            email: '',
+            password: ''
         });
         // Hide the message after 3 seconds
         setTimeout(() => setShowMessage(true), 3000);
@@ -121,6 +123,17 @@ const SignUpForm = () => {
                                 placeholder="Enter email"
                                 name="email"
                                 value={formData.email}
+                                onChange={handleChange}
+                            />
+                        </Form.Group>
+
+                        <Form.Group controlId="formPassword" className="mb-3">
+                            <Form.Label>Password</Form.Label>
+                            <Form.Control
+                                type="password"
+                                placeholder="Type your password"
+                                name="password"
+                                value={formData.password}
                                 onChange={handleChange}
                             />
                         </Form.Group>
