@@ -13,24 +13,49 @@ const SignUpForm = () => {
         password: ''
     });
     const [showMessage, setShowMessage] = useState(false);
-    const [message, setMessage] = useState(null);
+    const [message, setMessage] = useState('');
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
 
-    const handleSignUp = () => {
+    const handleSignUp = async () => {
         // Check empty field registration try
         const isFormComplete = Object.values(formData).every(field => field.trim() !== '');
         
         if (!isFormComplete) {
             setMessage({ text: 'Please fill out all fields.', type: 'danger' });
+            setShowMessage(true)
             return;
         }
-        // Display success message
-        setShowMessage(true);
+
+        try {
+            const response = await fetch('http://localhost:5000/signup', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(formData),
+            });
+        
+            const data = await response.json();
+        
+            if (response.ok) {
+              setMessage({ text: 'Registration successful!', type: 'success' });
+            } else {
+              setMessage({ text: data.error || 'Registration failed.', type: 'danger' });
+            }
+            setShowMessage(true);
+          } catch (error) {
+            console.error('Error:', error);
+            setMessage({ text: 'An error occurred.', type: 'danger' });
+            setShowMessage(true);
+          }
+        
         // Handle the sign-up logic here
         console.log('Sign Up:', formData);
+
+
         // Clear the form fields
         setFormData({
             firstName: '',
