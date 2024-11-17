@@ -62,6 +62,26 @@ function HomePage() {
           </Col>
         </Row>
       </Container>
+
+      {/* Public Templates Section */}
+      <Container className="public-templates-section mt-5">
+        <Row className="align-items-center">
+          <Col md={8}>
+            <h2>Explore Teaching Templates</h2>
+            <p>Designed to help you better prepare materials for class</p>
+          </Col>
+          <Col md={4} className="text-md-end text-center">
+            <Button 
+              onClick={() => navigate("/public-templates")} 
+              variant="success" 
+              className="public-templates-button"
+            >
+              Browse Public Templates
+            </Button>
+          </Col>
+        </Row>
+      </Container>
+
     </div>
   );
 }
