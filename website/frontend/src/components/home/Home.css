@@ -23,10 +23,16 @@
     text-shadow: 1px 1px 2px rgba(56, 22, 22, 0.7);
   }
   
-  .message-carousel .carousel-caption p {
+  .message-carousel .carousel-caption  {
     font-size: 1.2rem;
     color: #0b0a0a;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  p {
+    color:rgb(56, 9, 227);
+    background-color: linear-gradient(rgb(121, 99, 187), whitesmoke);
+    text-shadow: 1px 1px 2px rgba(56, 22, 22, 0.7);
+
   }
   
   /* Sign-In Banner Styling */
@@ -61,6 +67,26 @@
   .sign-in-button:hover {
     background-color: #0056b3;
   }
+
+   /* public template stuff */
+   .public-templates-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .public-templates-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .last {
+    display: inline-block; 
+    background-color: wheat; 
+    padding: 5px; 
+    border-radius: 5px; 
+  } 
+  
   
   /* Responsive Adjustments */
   @media (max-width: 768px) {
@@ -81,16 +107,4 @@
     }
   }
 
-  /* public template stuff */
-  .public-templates-section {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .public-templates-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-  }
   

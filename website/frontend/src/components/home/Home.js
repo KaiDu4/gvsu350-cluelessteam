@@ -20,8 +20,8 @@ function HomePage() {
             alt="Slide 1"
           />
           <Carousel.Caption>
-            <h3>Welcome to EduBridge</h3>
-            <p>Empowering Educators for the Future.</p>
+            <h3 className="h3-col">Welcome to EduBridge</h3>
+            <p className="last">Empowering Educators for the Future.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -31,8 +31,8 @@ function HomePage() {
             alt="Slide 2"
           />
           <Carousel.Caption>
-            <h3>Expand Your Knowledge</h3>
-            <p>Access Top-tier Teaching Materials and resources.</p>
+            <h3 className="h3-col">Expand Your Knowledge</h3>
+            <p className="last">Access Top-tier Teaching Materials and resources.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -42,8 +42,8 @@ function HomePage() {
             alt="carousel-image"
           />
           <Carousel.Caption>
-            <h3 className="h3-col">Join a Community of Educators</h3>
-            <p>Collaborate and Connect with Peers Worldwide.</p>
+            <h3 className="h3-col-l">Join a Community of Educators</h3>
+            <p className="last">Collaborate and Connect with Peers Worldwide.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
