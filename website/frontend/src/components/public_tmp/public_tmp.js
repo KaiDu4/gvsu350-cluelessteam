@@ -1,23 +1,23 @@
-//all the imports needed to start writing 
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import "./public_tmp.css";
+import "./templates.json";
 
-function Public_Tmp_Page() {
-    const [templates, setTemps] = useState([]); 
+function PublicTemplatesPage() {
+  const [templates, setTemplates] = useState([]);
 
-    useEffect(() => {
-        const getTemps = async () => {
-            const response = await fetch("/templates.json");
-            const data = await response.json();
-            setTemps(data);
-        };
+  useEffect(() => {
+    // Simulate fetching template data from an API or JSON file
+    const fetchTemplates = async () => {
+      const response = await fetch("./templates.json"); // Replace with your actual data endpoint
+      const data = await response.json();
+      setTemplates(data);
+    };
 
-    getTemps();
+    fetchTemplates();
+  }, []);
 
-}, []);
-
-return (
+  return (
     <Container className="public-templates-page mt-5">
       <h1 className="text-center mb-4">Public Templates</h1>
       <Row>
@@ -39,7 +39,7 @@ return (
                     target="_blank"
                     variant="primary"
                   >
-                    Google Docs Downloads
+                    Use in Google Docs
                   </Button>
                   <Button href={template.wordLink} download variant="success">
                     Download Word
