@@ -64,7 +64,7 @@ function HomePage() {
       </Container>
 
       {/* Public Templates Section */}
-      <Container className="public-templates-section mt-5">
+      {/* <Container className="public-templates-section mt-5">
         <Row className="align-items-center">
           <Col md={8}>
             <h1>Explore Teaching Templates</h1>
@@ -80,7 +80,7 @@ function HomePage() {
             </Button>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
 
     </div>
   );
