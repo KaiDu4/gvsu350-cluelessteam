@@ -1,22 +1,99 @@
-.template-thumbanil {
-    height: 200px;
-    object-fit: cover;
-}
+/* styles.css */
 
-.public-templates-page {
-    background-color: #007bff;
-    border-radius: 8px;
-    padding: 15px;
-}
-
-.template-card {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s, box-shadow 0,2;
-}
-
-.template-card:hover {
-    transform: translateY(-5px);
+/* Container styling */
+.containerd {
+    padding: 20px;
+    background-color: #bbd2c4; 
+    border-radius: 10px;
+  }
+  
+  /* Title styling */
+  .text-centerh {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4405d5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  
+  /* Card styling */
+  .card {
+    border: 1px solid #705454;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: scale(1.03);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-
-}
-
+  }
+  
+  /* Card title */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff; /* Primary color */
+  }
+  
+  /* Card text */
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d; /* Secondary text color */
+  }
+  
+  /* Footer buttons */
+  .card-footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Buttons */
+  .card-footer .btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+  
+  .card-footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .card-footer .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .card-footer .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .card-footer .btn-success:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .card-title {
+      text-align: center;
+    }
+  
+    .card-footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card-footer .btn {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+  }

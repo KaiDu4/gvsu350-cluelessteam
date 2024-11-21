@@ -6,8 +6,8 @@ import data from "./templates.json";
 
 function PublicTemplatesPage() {
   return (
-    <div className="container my-4">
-      <h1 className="text-center mb-4">Resources</h1>
+    <div className="containerd my-4">
+      <h1 className="text-centerh mb-4">Explore our Resources</h1>
       <div className="row">
         {data.map((item) => (
           <div className="col-md-4 mb-4" key={item.id}>
