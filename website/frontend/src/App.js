@@ -6,6 +6,7 @@ import SignInForm from "./components/start/signin.js";
 import NabBar from "./components/navBar/NabBar.js";
 import SignUpForm from './components/start/signup.js';
 import './App.css';
+import PublicTemplatesPage from './components/public_tmp/public_tmp.js';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/signin" element={<SignInForm />} />
                 <Route path="/signup" element={<SignUpForm />} />
+                <Route path="/public-templates" element={<PublicTemplatesPage />} />
                 {/* Add more routes as needed */}
             </Routes>
       </Router>
