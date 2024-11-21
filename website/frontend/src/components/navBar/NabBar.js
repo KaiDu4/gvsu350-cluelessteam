@@ -21,15 +21,15 @@ function NabBar() {
               <Nav.Link className='nav-link custom-font'>Home</Nav.Link>
             </LinkContainer>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown" className='nav-dropdown custom-font'>
-              <NavDropdown.Item href="#signin" className='dropdown-item custom-font'>START</NavDropdown.Item>
+              <NavDropdown.Item href="signin" className='dropdown-item custom-font'>START</NavDropdown.Item>
               <NavDropdown.Item href="public-templates" className='dropdown-item custom-font'>
                 Public Templates
               </NavDropdown.Item>
-              <NavDropdown.Item href="#privateTemp" className='dropdown-item custom-font'>Private Templates</NavDropdown.Item>
-              <NavDropdown.Divider />
+              <NavDropdown.Item href="private-templates" className='dropdown-item custom-font'>Private Templates</NavDropdown.Item>
+              {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#message" className='dropdown-item custom-font'>
                 Message
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

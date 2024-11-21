@@ -1,57 +1,49 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import "./public_tmp.css";
-import "./templates.json";
+import data from "./templates.json";
+
 
 function PublicTemplatesPage() {
-  const [templates, setTemplates] = useState([]);
-
-  useEffect(() => {
-    // Simulate fetching template data from an API or JSON file
-    const fetchTemplates = async () => {
-      const response = await fetch("./templates.json"); // Replace with your actual data endpoint
-      const data = await response.json();
-      setTemplates(data);
-    };
-
-    fetchTemplates();
-  }, []);
-
   return (
-    <Container className="public-templates-page mt-5">
-      <h1 className="text-center mb-4">Public Templates</h1>
-      <Row>
-        {templates.map((template) => (
-          <Col key={template.id} md={4} className="mb-4">
-            <Card className="template-card">
-              <Card.Img 
-                variant="top" 
-                src={template.thumbnail} 
-                alt={template.title} 
-                className="template-thumbnail"
-              />
-              <Card.Body>
-                <Card.Title>{template.title}</Card.Title>
-                <Card.Text>{template.description}</Card.Text>
-                <div className="d-flex justify-content-between">
-                  <Button
-                    href={template.googleDocsLink}
-                    target="_blank"
-                    variant="primary"
-                  >
-                    Use in Google Docs
-                  </Button>
-                  <Button href={template.wordLink} download variant="success">
-                    Download Word
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
+    <div className="containerd my-4">
+      <h1 className="text-centerh mb-4">Explore our Resources</h1>
+      <div className="row">
+        {data.map((item) => (
+          <div className="col-md-4 mb-4" key={item.id}>
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">{item.name}</h5>
+                <p className="card-text">
+                  <strong>Category:</strong> {item.category}
+                </p>
+                <p className="card-text">{item.description}</p>
+              </div>
+              <div className="card-footer d-flex justify-content-between">
+                <a
+                  href={item.downloadLink}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download
+                </a>
+                <a
+                  href={item.googleDocsLink}
+                  className="btn btn-success"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
         ))}
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
+  
 }
 
 export default PublicTemplatesPage;

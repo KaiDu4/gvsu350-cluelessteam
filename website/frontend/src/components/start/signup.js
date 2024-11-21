@@ -25,12 +25,12 @@ const SignUpForm = () => {
         
         if (!isFormComplete) {
             setMessage({ text: 'Please fill out all fields.', type: 'danger' });
-            setShowMessage(true)
+            setShowMessage(true);
             return;
         }
 
         try {
-            const response = await fetch('http://localhost:5000/signup', {
+            const response = await fetch('http://localhost:5000/auth/signup', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',

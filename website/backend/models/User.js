@@ -1,5 +1,5 @@
-
 import { Schema, model } from 'mongoose';
+import bcrypt from 'bcrypt';
 
 const userSchema = new Schema({
   firstName: {
@@ -36,5 +36,20 @@ const userSchema = new Schema({
     minlength: 6,
   },
 });
+
+// Method to hash password before saving the user to the database
+userSchema.pre('save', async function (next) {
+  if (!this.isModified('password')) {
+      return next();
+  }
+  this.password = await bcrypt.hash(this.password, 10);
+  next();
+});
+
+// Method to compare password during sign-in
+userSchema.methods.comparePassword = async function (password) {
+  return await bcrypt.compare(password, this.password);
+};
+
 
 export default model('User', userSchema);

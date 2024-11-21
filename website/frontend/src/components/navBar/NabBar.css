@@ -5,9 +5,11 @@
   }
   
   .navbar-brand {
-    font-size: 1.5rem;
-    color: #514c4c;
+    color: #be0ca4;
     font-weight: bold;
+    text-shadow: #ffffff;
+    font: 3em Droid Sans;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   
   .nav-link, .nav-dropdown .dropdown-item {
