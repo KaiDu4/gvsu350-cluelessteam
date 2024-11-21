@@ -42,7 +42,7 @@
 button {
     width: 100%;
     padding: 12px;
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
     background-color: #6c63ff;
     border: none;
@@ -58,15 +58,20 @@ button:hover {
 /* Register link */
 .register-link {
     margin-top: 20px;
-    font-size: 0.9em;
+    font-size: 1em;
     color: #555;
 }
 
-.register-link a {
+.register-link p {
     color: #6c63ff;
     text-decoration: none;
+    text-shadow: none;
+    font: bold;
 }
 
-.register-link a:hover {
-    text-decoration: underline;
+.register-link p:hover {
+    font-size: 110%;
+    text-decoration: none;
+    text-shadow: none;
+    color: red;
 }

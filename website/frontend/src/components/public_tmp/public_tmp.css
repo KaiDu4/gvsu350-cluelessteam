@@ -11,7 +11,7 @@
   .text-centerh {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #4405d5;
+    color: #201b2c;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: inline-block;
@@ -42,7 +42,8 @@
   /* Card text */
   .card-text {
     font-size: 1rem;
-    color: #6c757d; /* Secondary text color */
+    color: #6c757d;
+    text-shadow: none;
   }
   
   /* Footer buttons */
