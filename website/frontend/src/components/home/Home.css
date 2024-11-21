@@ -6,8 +6,13 @@
   
   /* Carousel Styling */
   .message-carousel .carousel-image {
-    height: 550px;
+    height: 600px;
     object-fit: cover;
+    width: 80%; 
+    border: 5px solid whitesmoke; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+  
   }
   
   .message-carousel .carousel-caption h3 {
