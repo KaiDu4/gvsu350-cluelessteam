@@ -25,7 +25,7 @@ function NabBar() {
               <NavDropdown.Item href="public-templates" className='dropdown-item custom-font'>
                 Public Templates
               </NavDropdown.Item>
-              <NavDropdown.Item href="#privateTemp" className='dropdown-item custom-font'>Private Templates</NavDropdown.Item>
+              <NavDropdown.Item href="private-templates" className='dropdown-item custom-font'>Private Templates</NavDropdown.Item>
               {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#message" className='dropdown-item custom-font'>
                 Message
