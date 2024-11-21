@@ -15,9 +15,10 @@ The goal or our software requirments specifications, is to identify and further 
    * The feature needs to include a working buttons to connect between pages. 
 
 
-3. Private Template Page
+3. Feature Name: Private Template Page
    * The feature needs to be able to access only if an account is made, and hides the tempalates to each individual users
-  
+ 
+
 
 
 # Non-Functional Requirements
@@ -32,6 +33,6 @@ The goal or our software requirments specifications, is to identify and further 
    * This feature should be able to have a friendly looking user interface for the users
 
 
-3. Private Template Page
+3. Feature Name: Private Template Page
 
 
