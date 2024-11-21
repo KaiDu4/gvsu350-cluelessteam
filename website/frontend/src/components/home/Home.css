@@ -80,4 +80,17 @@
       font-size: 1rem;
     }
   }
+
+  /* public template stuff */
+  .public-templates-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .public-templates-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
   
