@@ -74,7 +74,7 @@ function HomePage() {
             <Button 
               onClick={() => navigate("/public-templates")} 
               variant="success" 
-              className="public-temps-button"
+              className="public-templates-button"
             >
               Public Teaching Templates
             </Button>
