@@ -15,7 +15,6 @@
     "id": 2,
     "name": "Basic Readling Log",
     "category": "English",
-    "type": "word",  
     "downloadLink": "https://1drv.ms/w/c/49c2c972ca523f39/ETWWfMpg61ZFkeZYCzu4wwQB5-87pCtMJ74xh6VHZgEmmA", 
     "googleDocsLink": "https://docs.google.com/document/d/1Uur_DtssVTjLWwUJiYe1ytXqaPz9aaah1VOgecAYbSY/edit?usp=sharing", 
     "previewImage": "https://example.com/preview-image.jpg",
@@ -34,10 +33,21 @@
     {
     "id": 4,
     "name": "School Week Schedule",
-    "category": "Plans",
+    "category": "Planner",
     "type": "word",
     "downloadLink": "https://docs.google.com/document/d/1P3BRgBTWfYQBL6B4CiT5fIx3aaYUvI8bVeFRQoHSvgA/edit?usp=sharing",
     "googleDocsLink": "https://docs.google.com/document/d/1yozld3AvGQG1gf2_Vh5rSu9ODefgD3TIxLIQp8Xv3SI/edit?usp=sharing",
+    "previewImage": "https://example.com/preview-image.jpg",
+    "description": "A Template for teachers to make a lesson Plan"
+  },
+
+  {
+    "id": 5,
+    "name": "Lesson Plan Template 2",
+    "category": "Planner",
+    "type": "word",
+    "downloadLink": "https://docs.google.com/document/d/12Ll1DSbgF0Aqs5z2LKua89rowgUcHS_DpPJkAGdtbWE/edit?usp=sharing",
+    "googleDocsLink": "https://docs.google.com/document/d/12Ll1DSbgF0Aqs5z2LKua89rowgUcHS_DpPJkAGdtbWE/edit?usp=sharing",
     "previewImage": "https://example.com/preview-image.jpg",
     "description": "A Template for teachers to make a lesson Plan"
   }
