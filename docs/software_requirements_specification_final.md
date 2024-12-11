@@ -6,31 +6,34 @@ This section includes both Functional and Non-Functional requirements for featur
 
 ## Functional Requirements
 
-### <Name of Feature 1>
+### Public Template Page
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR1 | <Requirement 1> |
-| FR2 | <Requirement 2> |
-| FR3 | <Requirement 3> |
+| FR1 | This feature should give the users a description of a specific template and category to inform the reader the purpose of each template|
+| FR2 | The public template pages needs to include buttons that give the option download or edit a template |
+| FR3 | This feature should present the templates in a 3 by X grid form, where each row has 3 templates, and X columns adjust for number of grids in it's stadard view form |
+| FR4 | The public template page needs to give a preview of templates when either the word, or doc buttons and used |
 | … | … |
 
 ### <Name of Feature 2>
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR4 | <Requirement 1> |
+| FR4 | <req> |
 | FR5 | <Requirement 2> |
 | FR6 | <Requirement 3> |
 | … | … |
 
 ## Non-Functional Requirements
 
-### <Name of Feature 1>
+### Public Template Page
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR1 | <Non-Functional Requirement 1> |
-| NFR2 | < Non-Functional Requirement 2> |
-| NFR3 | < Non-Functional Requirement 3> |
+| NFR1 | The public template pages needs to have some type of connection to google drive in order to be edited on on google documents |
+| NFR2 | This feature neels to be able to also have some type of connection to word documents to be edited on microsoft word |
+| NFR3 | This feature needs to be able to updated when a new template is created or given permission to be uploaded to the website |
+| NFR4 | The Public template page shall adjust to different screen sizes including smaller ones (like phone sized screens) and present each template card with all information despite size changes |
 | … | … |
+
 # Software Artifacts
 
 <Describe the purpose of this section>
