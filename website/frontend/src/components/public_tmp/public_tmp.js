@@ -26,7 +26,7 @@ function PublicTemplatesPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Download
+                  Word
                 </a>
                 <a
                   href={item.googleDocsLink}
@@ -34,7 +34,7 @@ function PublicTemplatesPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View
+                  Docs
                 </a>
               </div>
             </div>
