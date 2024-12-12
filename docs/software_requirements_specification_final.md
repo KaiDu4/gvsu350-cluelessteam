@@ -102,7 +102,7 @@ This gantt chart shows a more basic skeleton of the progress we made throughout 
  
 Gantt Chart: 
 
-![Gantt Chart](sequenceDiagram.png)
+![Gantt Chart](edu_bridge_gantt.png)
 
 
 
