@@ -38,8 +38,10 @@ This section includes both Functional and Non-Functional requirements for featur
 | FR13 | The sign up button should return the message "Please Try Again" if any of the filled out fields provided incorrect data |
 
 ### Private Template Page 
-| ID | Requirement |
-| :-------------: | :----------: |                                          | FR14 | The private template page should have clear indications of fields that need to be filled out so a template of user's creation can be considered for addition to EduBridge Public Templates |                               | FR15 | Once "upload template" button is clicked all filled out fields should be stored to a .json file for the template review process |
+| ID | Requirement | 
+| :-------------: | :----------: |
+| FR14 | The private template page should have clear indications of fields that need to be filled out so a template of user's creation can be considered for addition to EduBridge Public Templates |
+| FR15 | Once "upload template" button is clicked all filled out fields should be stored to a .json file for the template review process |
 
 ### Navigation Bar
 | ID | Requirement |
@@ -81,7 +83,7 @@ This section includes both Functional and Non-Functional requirements for featur
 ### Private Template Page
 | ID | Requirement | 
 | :-------------: | :----------: | 
-| NFR12 | Should be able to accept at least a Google Doc or Microsoft Word verision of a template. Other forms of templates are not accepted to be upload for Public Template pages yet |  
+| NFR12 | Should be able to accept at least a Google Doc or Microsoft Word verision of a template. Other forms of templates are not accepted to be upload for Public Template pages yet | 
 | NFR13 | This feature is not yet automatic, and instead is a manual process to ensure templates are appropriate for the website |                                                                                
 ### Navigation Bar
 | ID | Requirement |
