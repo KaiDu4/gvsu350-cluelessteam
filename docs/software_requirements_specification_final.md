@@ -101,7 +101,8 @@ This section will show of Artifacts from EduBridge's Development including docum
 This gantt chart shows a more basic skeleton of the progress we made throughout the semester. The yellow items are features we could need get too or did not finish with the time period we had: 
  
 Gantt Chart: 
-![Gantt Chart]('EduBridge Gantt Chart.png')
+
+* [Gantt Chart](EduBridge Gantt Chart.png)
 
 
 * [I am a link](to_some_file.pdf)
