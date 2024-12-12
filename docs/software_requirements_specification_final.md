@@ -102,7 +102,7 @@ This gantt chart shows a more basic skeleton of the progress we made throughout 
  
 Gantt Chart: 
 
-* [Gantt Chart](EduBridge Gantt Chart.png)
+![Gantt Chart](EduBridge Gantt Chart.png)
 
 
-* [I am a link](to_some_file.pdf)
+
