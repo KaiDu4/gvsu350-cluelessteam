@@ -54,6 +54,20 @@ The Homepage page will be open. From the Home page we can go to sign in or publi
 By clicking open an account an user can move to sign up page for opening an account.
 ![sign-in Page](./artifacts/images_site/Screenshot%202024-12-12%20210853.png)
 
+## sign-up page
+Fill up the sign up page form for opening an account.
+![sign-up Page](./artifacts/images_site/Screenshot%202024-12-12%20211441.png)
+
+## public template page
+in public template page we can view each template according to their category and download them.
+![public-template Page](./artifacts/images_site/Screenshot%202024-12-12%20211658.png)
+
+## private template page
+Still private template page is actuallly a form to post an template by individual user. In the future , an user can also view a list of uploaded templated of own and modify them.
+![private-template Page](./artifacts/images_site/Screenshot%202024-12-12%20212243.png)
+
+### From any page an user by clicking Home button can move to the home page.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
