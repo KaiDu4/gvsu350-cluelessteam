@@ -98,11 +98,16 @@ This section will show of Artifacts from EduBridge's Development including docum
 
 
 ## Gantt Chart
-This gantt chart shows a more basic skeleton of the progress we made throughout the semester. The yellow items are features we could need get too or did not finish with the time period we had: 
+This gantt chart shows a more basic skeleton of the progress we made throughout the semester. The yellow items are features we could need get too or did not finish with the time period we had
  
-Gantt Chart: 
 
 ![Gantt Chart](edu_bridge_gantt.png)
+
+## Use Case Diagram 
+The Use case diagram shows many of the different objects we have an how they may interact or be used by actors
+
+
+![Use Case Diagram](edubridge_usecase_diagram.png)
 
 
 
