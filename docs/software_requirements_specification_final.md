@@ -138,7 +138,7 @@ The Sign In Page can be used if you already have an account and want to log back
 
 ## sign-up page
 Filling up the sign up page form can be used in order to open an account.
-![sign-up Page](./artifacts/images_site/Screenshot%202024-12-12%20211441.png)
+![sign-up Page](~/artifacts/images_site/Screenshot%202024-12-12%20211441.png)
 
 ## public template page
 In the public template page we can view each template according to their category and download them.
