@@ -7,7 +7,7 @@ This project also used mongodb and nodemon to support the backend data for users
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the frontend project directory, you can run:
 
 ### `npm start`
 
@@ -18,8 +18,9 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## To run the backend
+Go the backend folder and run 
 
-## Go the backend folder and run "npm start"
+### `npm start`
 
 ### `npm test`
 
