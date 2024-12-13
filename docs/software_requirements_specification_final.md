@@ -104,10 +104,14 @@ This gantt chart shows a more basic skeleton of the progress we made throughout 
 ![Gantt Chart](edu_bridge_gantt.png)
 
 ## Use Case Diagram 
-The Use case diagram shows many of the different objects we have an how they may interact or be used by actors
+The Use case diagram shows many of the different objects we have and how they may interact or be used by actors
 
 
 ![Use Case Diagram](edubridge_usecase_diagram.png)
 
 
+## Sequence Diagram
+The sequence diagram shows possible interactions or "messages" between objects in EduBridge
 
+
+![Sequence Diagram](sequenceDiagram.png)
