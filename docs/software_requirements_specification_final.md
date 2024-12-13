@@ -120,3 +120,13 @@ The sequence diagram shows possible interactions or "messages" between objects i
 
 
 ![Sequence Diagram](sequenceDiagram.png)
+
+
+# Demo 
+The following is a visual Demo using images to show the features of EduBridge in full
+
+### Home Page
+The following shows of the Home Page we were able to create for EduBridge, you can use the Sign In button if you have an account or the dropdown for other navigation options. 
+
+![Home Page](artifacts/images_site/image.png)
+
