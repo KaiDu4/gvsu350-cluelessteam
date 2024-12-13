@@ -141,9 +141,16 @@ In the public template page we can view each template according to their categor
 ![public-template Page](../artifacts/images_site/Screenshot%202024-12-12%20211658.png)
 
 ## Word Transfer 
+The following shows what you would be directed to if you clicked got word button. You get directed to a page where you can view and download the template as a Microsoft Word Document for your own use 
+
+![Word](../artifacts/images_site/Word_ex.png)
 
 
 ## Doc Transfer 
+
+The following shows what you would be directed to if you clicked got Doc button. You get directed to a page where you can view and download or edit the template as a Google Document File for your use.
+
+![Word](../artifacts/images_site/docs_ex.png)
 
 
 ## Private template page
