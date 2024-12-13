@@ -133,7 +133,7 @@ The following shows of the Home Page we were able to create for EduBridge, you c
 
 ## Sign-in page
 The Sign In Page can be used if you already have an account and want to log back in.
-![sign-in Page](./artifacts/images_site/Screenshot%202024-12-12%20210853.png)
+![sign-in Page](../artifacts/images_site/Screenshot%202024-12-12%20210853.png)
 
 
 ## Public template page
