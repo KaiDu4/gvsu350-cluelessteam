@@ -99,9 +99,14 @@ This section will show of Artifacts from EduBridge's Development including docum
 
 ## Gantt Chart
 This gantt chart shows a more basic skeleton of the progress we made throughout the semester. The yellow items are features we could need get too or did not finish with the time period we had
- 
+
 
 ![Gantt Chart](edu_bridge_gantt.png)
+
+## Jira Board 
+The following is an image of the Jira Board we used to help organize tasks through our software development process. Going to the full jira board will give a bigger scope of finished tasks that the following image may not provide.
+
+![Jira Board](../artifacts/images_site/jira.png)
 
 ## Use Case Diagram 
 The Use case diagram shows many of the different objects we have and how they may interact or be used by actors
