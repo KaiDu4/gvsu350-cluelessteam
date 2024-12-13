@@ -1,0 +1,122 @@
+/* General Page Styling */
+.home-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Carousel Styling */
+  .message-carousel .carousel-image {
+    height: 600px;
+    object-fit: cover;
+    width: 80%; 
+    border: 5px solid whitesmoke; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+  
+  }
+  
+  .message-carousel .carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e6f6e6;
+    text-shadow: 1px 1px 2px rgba(56, 22, 22, 0.7);
+  }
+  .h3-col {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #77891a;
+    text-shadow: 1px 1px 2px rgba(56, 22, 22, 0.7);
+  }
+  
+  .message-carousel .carousel-caption  {
+    font-size: 1.2rem;
+    color: #0b0a0a;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  p {
+    color:rgb(56, 9, 227);
+    background-color: linear-gradient(rgb(121, 99, 187), whitesmoke);
+    text-shadow: 1px 1px 2px rgba(56, 22, 22, 0.7);
+
+  }
+  
+  /* Sign-In Banner Styling */
+  .sign-in-banner {
+    background-color: #e5d7d7;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+  }
+  
+  .sign-in-banner h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .sign-in-banner p {
+    font-size: 1.1rem;
+    color: #5f0808;
+  }
+  
+  .sign-in-button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #0056b3;
+  }
+
+   /* public template stuff */
+   .public-templates-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .public-templates-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .last {
+    display: inline-block; 
+    background-color: wheat; 
+    padding: 5px; 
+    border-radius: 5px; 
+  } 
+
+  .sign-in-banner {
+    padding: 4%;
+    border-top: #0b0a0a;
+    background-color: whitesmoke;
+
+  }
+  
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .message-carousel .carousel-caption h3 {
+      font-size: 1.5rem;
+    }
+  
+    .message-carousel .carousel-caption p {
+      font-size: 1rem;
+    }
+  
+    .sign-in-banner h2 {
+      font-size: 1.5rem;
+    }
+  
+    .sign-in-banner p {
+      font-size: 1rem;
+    }
+  }
+
+  
