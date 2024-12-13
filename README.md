@@ -50,6 +50,9 @@ The Homepage page will be open. From the Home page we can go to sign in or publi
 
 ![Home Page](./artifacts/images_site/image.png)
 
+## sign-in page
+By clicking open an account an user can move to sign up page for opening an account.
+![sign-in Page](./artifacts/images_site/Screenshot%202024-12-12%20210853.png)
 
 ### `npm run build`
 
