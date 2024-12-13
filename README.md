@@ -8,7 +8,7 @@ The project idea that we have come up with is an application that will allow tea
 * [Chotan](https://github.com/ChotanSharma/CIS350-HW2-SHARMA) (Front end design/coder, Focus on front end)
 
 ## Prerequisites
-The project mainly follow MERN stack development project. the following stuffs need to be installed to run the project. 
+The project mainly follows MERN stack development project. The following stuff needs to be installed to run the project. 
 
 ### `npm module`
 ### `Express`
@@ -27,6 +27,7 @@ The project mainly follow MERN stack development project. the following stuffs n
 ## Available Scripts
 
 In the frontend project directory, you can run:
+The frontend project directory is in the website directory 
 
 ### `npm start`
 
@@ -37,7 +38,9 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## To run the backend
-Go the backend folder and run 
+
+Go to the backend folder and run 
+The backend project directory is in the website directory 
 
 ### `npm start`
 
@@ -46,12 +49,12 @@ MongoDB connected
 
 ## Website navigation
 
-The Homepage page will be open. From the Home page we can go to sign in or public and private templates page by clicking.
+The Homepage page will be open. From the Home page, you can go to the sign in or the public and private templates page by clicking.
 
 ![Home Page](./artifacts/images_site/image.png)
 
 ## sign-in page
-By clicking open an account an user can move to sign up page for opening an account.
+By clicking open an account a user can move to the sign up page to start opening an account.
 ![sign-in Page](./artifacts/images_site/Screenshot%202024-12-12%20210853.png)
 
 ## sign-up page
@@ -59,14 +62,14 @@ Fill up the sign up page form for opening an account.
 ![sign-up Page](./artifacts/images_site/Screenshot%202024-12-12%20211441.png)
 
 ## public template page
-in public template page we can view each template according to their category and download them.
+In public template page we can view each template according to their category and download them.
 ![public-template Page](./artifacts/images_site/Screenshot%202024-12-12%20211658.png)
 
 ## private template page
-Still private template page is actuallly a form to post an template by individual user. In the future , an user can also view a list of uploaded templated of own and modify them.
+Private template page is actually a form to post a template by individual user. In the future , an user can also view a list of uploaded templates of their own and modify them.
 ![private-template Page](./artifacts/images_site/Screenshot%202024-12-12%20212243.png)
 
-### From any page an user by clicking Home button can move to the home page.
+### From any page by clicking Home button can move to the home page.
 
 ### `npm run build`
 
