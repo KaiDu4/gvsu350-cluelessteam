@@ -109,6 +109,11 @@ The Use case diagram shows many of the different objects we have and how they ma
 
 ![Use Case Diagram](edubridge_usecase_diagram.png)
 
+## Object Diagram
+The object diagram shows a few of the relationships different objects have with each other at a given time in EduBridge
+
+![Object Diagram](edu_bridge_object_diagram.png)
+
 
 ## Sequence Diagram
 The sequence diagram shows possible interactions or "messages" between objects in EduBridge
