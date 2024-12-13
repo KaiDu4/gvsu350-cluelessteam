@@ -130,17 +130,13 @@ The following shows of the Home Page we were able to create for EduBridge, you c
 
 ![Home Page](../artifacts/images_site/image.png)
 
-![Home Page](../artifacts/images_site/image.png)
 
 ## Sign-in page
 The Sign In Page can be used if you already have an account and want to log back in.
 ![sign-in Page](./artifacts/images_site/Screenshot%202024-12-12%20210853.png)
 
-## sign-up page
-Filling up the sign up page form can be used in order to open an account.
-![sign-up Page](../artifacts/images_site/Screenshot%202024-12-12%20211441.png)
 
-## public template page
+## Public template page
 In the public template page we can view each template according to their category and download them.
 ![public-template Page](../artifacts/images_site/Screenshot%202024-12-12%20211658.png)
 
@@ -149,7 +145,8 @@ In the public template page we can view each template according to their categor
 
 ## Doc Transfer 
 
-## private template page
+
+## Private template page
 The private template page is actually a form to post a template by individual user. In the future, a user can also view a list of uploaded templates of their own creation and modify them.
 ![private-template Page](../artifacts/images_site/Screenshot%202024-12-12%20212243.png)
 
